@@ -1,86 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>DarkPhantom VPN</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #0b0c0f;
-      color: #f4f4f4;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    header {
-      padding: 60px 20px 20px;
-    }
-    h1 {
-      font-size: 3em;
-      color: #00d1ff;
-    }
-    p {
-      font-size: 1.2em;
-      max-width: 700px;
-      margin: auto;
-    }
-    .button {
-      margin-top: 30px;
-      padding: 12px 24px;
-      background-color: #00d1ff;
-      color: #0b0c0f;
-      border: none;
-      border-radius: 8px;
-      font-size: 1em;
-      cursor: pointer;
-      transition: 0.3s;
-      text-decoration: none;
-    }
-    .button:hover {
-      background-color: #00a3c7;
-    }
-    section {
-      margin: 60px 0;
-      max-width: 900px;
-      padding: 0 20px;
-    }
-    .video {
-      margin-top: 30px;
-    }
-    footer {
-      margin-top: 60px;
-      padding: 20px;
-      font-size: 0.9em;
-      color: #aaa;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>DarkPhantom VPN</title>
+    <style>
+        body { background-color: #111; color: #fff; font-family: sans-serif; text-align: center; padding: 40px; }
+        h1 { color: #00d4ff; }
+        button {
+            background-color: #00d4ff;
+            border: none;
+            padding: 12px 24px;
+            font-size: 18px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        .features { margin-top: 50px; font-size: 18px; text-align: left; display: inline-block; text-align: left; }
+        .features li { margin: 10px 0; }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>DarkPhantom VPN</h1>
+    <h1>VPN-сервис DarkPhantom</h1>
     <p>Сильный, скрытный и мгновенный VPN без компромиссов. Защити свою свободу в сети.</p>
-    <a class="button" href="#">Скачать приложение</a>
-  </header>
+    <a href="DarkPhantom.exe" download><button>Скачать приложение</button></a>
 
-  <section>
-    <h2>Особенности</h2>
-    <p>💠 Обход DPI и блокировок,  
-    ⚡ Автопереключение серверов,  
-    🎮 Геймерский режим с минимальной задержкой,  
-    🔒 Двухфакторная аутентификация,  
-    🧠 Встроенная техподдержка на GPT.</p>
-  </section>
-
-  <section class="video">
-    <h2>Посмотри, как работает DarkPhantom</h2>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/OVzO-MqC8FQ" frameborder="0" allowfullscreen></iframe>
-  </section>
-
-  <footer>
-    © 2025 DarkPhantom. Все права защищены.
-  </footer>
+    <div class="features">
+        <h2>Особенности</h2>
+        <ul>
+            <li>💠 Обход DPI и блокировок</li>
+            <li>⚡ Автопереключение серверов</li>
+            <li>🎮 Геймерский режим с минимальной задержкой</li>
+            <li>🔒 Двухфакторная аутентификация</li>
+            <li>🧠 Встроенная техподдержка на GPT</li>
+        </ul>
+    </div>
 </body>
 </html>
